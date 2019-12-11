@@ -1,0 +1,515 @@
+/* start frame-work */
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 3000px
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    position: relative
+}
+.table{
+    height: 100%;
+    display: table
+}
+.table-row{
+    display: table-row;
+    height: 100%
+}
+.upper{
+    text-transform: uppercase
+}
+.main-color{
+    color: #f7600e
+}
+.main-background-color{
+    color: #f7600e
+}
+.text-center{
+    text-align: center
+}
+.cursor{
+    cursor: pointer
+}
+.hidden{
+    display: none
+}
+button{
+    outline: none
+}
+/* end frame-work */
+
+/* start header */
+.header{
+    background-image: url('../images/1.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.header .overlay{
+    background-color: rgba(49, 55, 61, .8);
+    width: 100%;
+    height: 100%;
+    color: white
+}
+.header .navbar{
+    padding-top: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+.header .navbar .logo{
+    font-size: 30px
+}
+.header .navbar .bars{
+    float: right
+}
+.header .navbar .bars i{
+    margin-left: 5px
+}
+.header .table-row .intro{
+    display: table-cell;
+    vertical-align: middle
+}
+.header .intro h1{
+    margin-bottom: 2px
+}
+.header .intro p{
+    margin-top: 10px;
+    line-height: 1.7
+}
+.header .intro .button button{
+    background: none;
+    margin: 20px 10px 0;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #909090;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.header .intro .button button:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e
+        
+}
+
+.header .arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px
+}
+.header .arrow i{
+    border: 1px solid #EEE;
+    border-radius: 50%;
+    padding: 3px
+}
+/* end header */
+
+/* start features */
+.features{
+    padding: 100px 0;
+    overflow: hidden
+}
+.features .feat{
+    width: 25%;
+    float: left
+}
+.features .feat i{
+    border: 1px solid #909090;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    color: red
+}
+.features .feat span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold
+}
+/* end features */
+
+/* start subscribe */
+.subscribe{
+    background-image: url('../images/11.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    position: relative
+}
+.subscribe .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(90, 90, 90, 0.8)
+}
+.subscribe form{
+    line-height: 300px;
+    text-align: center
+}
+.subscribe form input{
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 5px
+}
+.subscribe form button{
+    margin-left:50px;
+    margin-right:100px;
+    padding: 10px 50px;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.subscribe form button:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e
+}
+/* end subscribe */
+
+/* start our-work */
+.our-work{
+    padding: 50px 0
+}
+.our-work .work p{
+    line-height: 1.8
+}
+.our-work .item-box{
+    overflow: hidden;
+    margin-top: 80px
+}
+.our-work .item-box .item{
+    float: left;
+    width: 30.333%;
+    margin-left: 2.2%;
+    margin-bottom: 20px;
+    position: relative
+}
+.our-work .item-box .item img{
+    border-radius: 10px;
+    width: 100%
+}
+.our-work .item-box .item .overlay{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, 0.8);
+    color: white
+}
+.our-work .item-box .item .overlay p{
+    line-height: 1.8
+}
+.our-work .item-box .item .overlay button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.our-work .item-box .item:hover .overlay{
+    display: block
+}
+.our-work .item-box .item .overlay button:hover{
+    background: white;
+    color: #f7600e
+}
+.our-work .button{
+    padding-top: 50px; 
+}
+.our-work .button button{
+    padding: 10px 30px;
+    background: none;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.our-work .button button:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: white
+}
+/* end our-work */
+
+/* start testimnials */
+.testimonials{
+    background-color: red;
+    margin-top: 80px;
+    background-image: url('../images/12.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding-bottom: 50px;
+    position: relative
+}
+.testimonials .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.testimonials .testi img{
+    margin-top: 80px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px
+}
+.testimonials .testi p{
+    margin-top: 50px;
+    line-height: 1.5;
+    width: 500px;
+    margin-left: 350px
+}
+.testimonials .testi span{
+    display: block;
+    padding-top: 50px
+}
+.testimonials .fa-chevron-right{
+    position: absolute;
+    top: 58%;
+    right: 0
+}
+.testimonials .fa-chevron-left{
+    position: absolute;
+    top: 58%;
+    left: 0
+}
+.testimonials .fa-chevron-right:hover{
+    color: #f7600e
+}
+.testimonials .fa-chevron-left:hover{
+    color: #f7600e
+}
+/* end testimnials */
+
+/* start our-team */
+.our-team{
+    margin-top: 100px;
+}
+.our-team .image-box{
+    overflow: hidden;
+    padding-top: 50px;
+    margin-left: 210px
+}
+.our-team .image-box .image-item{
+    float: left;
+    width: 20%;
+    margin-left: -1%;
+    filter: grey;
+    filter: grayscale(1);
+    -webkit-filter: gayscale(1);
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out
+}
+.our-team .image-box .image-item:hover{
+    filter: none;
+    filter: grayscale(0);
+    -webkit-filter: gayscale(0)
+}
+.our-team .image-box .image-item img{
+    border-radius: 10px;
+    width: 150px;
+    height: 200px
+}
+.our-team .image-box .image-item span{
+    display: block;
+    margin-top: 15px;
+}
+.our-team .image-box .image-item i{
+    margin-top: 10px
+}
+.our-team .image-box .image-item i:first-of-type{
+    border: 1px solid blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    line-height: 20px
+}
+.our-team .image-box .image-item i:nth-of-type(2){
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    line-height: 20px
+}
+.our-team .image-box .image-item i:last-of-type{
+    border: 1px solid cyan;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: cyan;
+    color: white;
+    line-height: 20px
+}
+/* end our-team */
+
+/* start footer-contact */
+.footer-contact{
+    margin-top: 100px;
+    background-image: url('../images/18.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    color: white;
+    padding-bottom: 50px
+}
+.footer-contact .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+.footer-contact .foot h1{
+    padding-top: 50px
+}
+.footer-contact .foot p{
+    line-height: 1.8
+}
+.footer-contact .foot p{
+    line-height: 1.8
+}
+.footer-contact form{
+    margin-top: 20px
+}
+.footer-contact form input[type="email"]{
+    width: 300px;
+    height: 30px;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    outline: none
+}
+.footer-contact form input[type="text"]{
+    width: 300px;
+    height: 30px;
+    padding: 0 15px;
+    border-radius: 10px;
+    outline: none
+}
+.footer-contact form textarea{
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 100px;
+    width: 660px;
+    margin: 30px auto 15px;
+    resize: none;
+    outline: none
+}
+.footer-contact form .contact{
+    overflow: hidden
+}
+.footer-contact form .contact button{
+    float: left;
+    margin-left: 250px;
+    padding: 10px 50px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.footer-contact form .contact button:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: white
+}
+.footer-contact form .contact span{
+    float: right;
+    margin-right: 250px
+}
+.footer-contact form .contact span i:first-of-type{
+    border: 1px solid blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    line-height: 30px
+}
+.footer-contact form .contact span i:nth-of-type(2){
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    line-height: 30px
+}
+.footer-contact form .contact span i:last-of-type{
+    border: 1px solid cyan;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cyan;
+    color: white;
+    line-height: 30px
+}
+
+/* end footer-contact */
+
+/* start footer */
+.footer{
+    background-color: #3b434c;
+    color: white;
+    overflow: hidden;
+    padding: 30px 0   
+}
+.footer .copy{
+    float: left
+}
+.footer .design{
+    float: right
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end footer */
